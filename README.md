@@ -36,9 +36,12 @@ Finally, the Sponsorship entity represents commercial partnerships between fight
 
 
 # Queries
-1. Query 1 lists the event details for the fight nights. This list includes the EventID, EventName, EventDate, EventLocation, and EventPromotion. Query 1 allows managers to see important logistical informaiton in terms of each fight night. Knowing information like event date and location will be important for predicting revenue for the fight night as well as being important information for planning the events.
 
-   <img width="632" height="220" alt="image" src="https://github.com/user-attachments/assets/9a683579-3c0d-4dcb-add1-c34a6f8bf0b5" />
+<img width="433" height="133" alt="image" src="https://github.com/user-attachments/assets/aeecbed2-8cb8-48e3-9f73-ce8675e83a93" />
+
+1. Query 1 helps management understand the demographic makeup of their fighters. Knowing the number of fighters by nationality can help the organization plan international marketing, schedule global events, and track diversity across its roster. It can also help promoters highlight cultural representation for broadcast or fan engagement purposes.
+
+  <img width="542" height="254" alt="image" src="https://github.com/user-attachments/assets/69cf36f1-e617-4181-8f6a-f13450e7ec62" />
 
 2. Query 2 alphabetizes the fighters participating in the fight nights. This query includes FighterID, and the fighters first and last name. Query 2 allows for managers to get important information like the fighters names to people running the event such as promoters, as well as announcers for fight commentary.
 
@@ -48,9 +51,10 @@ Finally, the Sponsorship entity represents commercial partnerships between fight
 
     <img width="447" height="348" alt="image" src="https://github.com/user-attachments/assets/a16c3e06-b626-4c4a-b5fa-7148097bd1fc" />
 
-4. Query 4 lists the gyms that the fighters in the event train at. Included in this query is the gym ID, gym name, and gym location. This query allows managers to see the different gyms each fighter has trained at. Gyms can be influential on a fighter as each gym has different coaches and different techniques that may be taught there that might influence a fight. This information is also important for announcers as it may influence some of their dialogue during the fight.
+4. Query 4 is important for management because it helps monitor referee activity and experience levels. By knowing how many bouts each referee has handled, event coordinators can assign officials appropriately—giving veteran referees high-profile fights and ensuring even distribution of work. It also aids in performance evaluation, certification tracking, and identifying which referees are most active across multiple events.
 
-   <img width="337" height="260" alt="image" src="https://github.com/user-attachments/assets/abeef0de-df26-4b8e-8fad-24f5cb4d3576" />
+<img width="853" height="278" alt="image" src="https://github.com/user-attachments/assets/d0346aad-f0f2-40a3-a363-559f36ae3f97" />
+
 
 5. Query 5 flags fighters over their class limit. It returns FighterID, name, FighterWeight, and the class max from a correlated subquery. This is a compliance and safety check before weigh-ins. Managers can act early: reclassify a bout, schedule catchweights, or issue fines. It also helps coaches manage cut plans and reduces last-minute cancellations.
 
@@ -78,4 +82,6 @@ Finally, the Sponsorship entity represents commercial partnerships between fight
 
 # Database information
 Name of the database: ns_F25MIST4610_15058_Group1
+
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q1();
+
