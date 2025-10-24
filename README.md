@@ -78,7 +78,8 @@ Finally, the Sponsorship entity represents commercial partnerships between fight
    
 10. Query 10 provides height and weight stats per class: min, max, and averages. Matchmakers can balance reach/size dynamics across a card. Performance staff can spot outliers that may need tailored nutrition or conditioning. Broadcasters get clean talking points about the division’s body type profile.
 
-     <img width="916" height="337" alt="IMG_1378" src="https://github.com/user-attachments/assets/f99a4e10-5e5f-4b20-a10d-dc6af21d9c2c" />
+     <img width="862" height="325" alt="image" src="https://github.com/user-attachments/assets/defc2189-4e2a-4b9e-b9ec-8394b7552602" />
+
 
 # Database information
 Name of the database: ns_F25MIST4610_15058_Group1
